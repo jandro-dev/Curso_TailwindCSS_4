@@ -6,20 +6,57 @@
 	<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 	<title>jandro.links - Enlaces de jandrodev</title>
 </head>
-<body class="bg-black">
+<body class="max-w-xl min-h-screen mx-auto bg-gradient-to-b from-black via-sky-950 to-gray-800">
+	
 	<header class="text-white">
 		<h1>jandro.links</h1>
 		<p>Enlaces de jandrodev</p>
 
-		<a class="flex items-center justify-center p-2 bg-purple-100 rounded-full size-12" href="https://twitch.tv/shoteer__" target="_blank" aria-label="Twitch" title="Ir a twitch de @shoteer__">
-			
-			<!-- Cargar iconos svg mediante referencia symbol -->
-			<svg width="28" height="28">
-				<use xlink:href="./assets/sprite.svg#twitch" />
-			</svg>
-		</a>
+		<section class="flex gap-2">
+			<!-- Twitch -->
+			<a class="flex items-center justify-center p-2 transition-transform bg-purple-100 rounded-full size-12 hover:scale-110" href="https://twitch.tv/shoteer__" target="_blank" rel="noopener noreferrer" aria-label="Twitch" title="Ir a twitch de @shoteer__">	
+				<!-- Cargar iconos svg mediante referencia symbol -->
+				<svg width="28" height="28">
+					<use xlink:href="./assets/sprite.svg#twitch" />
+				</svg>
+			</a>
 
-		
+			<!-- Github -->
+			<a class="flex items-center justify-center p-2 transition-transform bg-black rounded-full size-12 hover:scale-110" href="https://github.com/jandro-dev" target="_blank" rel="noopener noreferrer" aria-label="Github" title="Ir a github de @jandrodev">	
+				<svg width="28" height="28">
+					<use xlink:href="./assets/sprite.svg#github" />
+				</svg>
+			</a>
+
+			<!-- Instagram -->
+			<a class="flex items-center justify-center p-2 transition-transform rounded-full bg-gradient-to-tr from-yellow-200 via-pink-600 to-purple-600 size-12 hover:scale-110" href="https://instagram.com/jandrodev" target="_blank" rel="noopener noreferrer" aria-label="Instagram" title="Ir a Instagram de @jandrodev">	
+				<svg width="28" height="28">
+					<use xlink:href="./assets/sprite.svg#instagram" />
+				</svg>
+			</a>
+
+			<!-- YouTube -->
+			<a class="flex items-center justify-center p-2 transition-transform bg-white rounded-full size-12 hover:scale-110" href="https://youtube.com/@jandrodev" target="_blank" rel="noopener noreferrer" aria-label="YouTube" title="Ir a YouTube de @jandrodev">	
+				<svg width="28" height="28">
+					<use xlink:href="./assets/sprite.svg#youtube" />
+				</svg>
+			</a>
+
+			<!-- X -->
+			<a class="flex items-center justify-center p-2 transition-transform bg-black rounded-full size-12 hover:scale-110" href="https://x.com/jandrodev" target="_blank" rel="noopener noreferrer" aria-label="X" title="Ir a X de @jandrodev">	
+				<svg width="28" height="28">
+					<use xlink:href="./assets/sprite.svg#x" />
+				</svg>
+			</a>
+
+			<!-- LinkedIn -->
+			<a class="flex items-center justify-center p-2 transition-transform bg-white rounded-full size-12 hover:scale-110" href="https://linkedin.com/in/jandrodev" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" title="Ir a Linkedin de @jandrodev">	
+				<svg width="28" height="28">
+					<use xlink:href="./assets/sprite.svg#linkedin" />
+				</svg>
+			</a>
+		</section>
+
 	</header>
 	<main>
 		Aqui van los enlaces de jandrodev
