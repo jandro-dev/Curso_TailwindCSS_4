@@ -32,6 +32,7 @@
     --default-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
+    --color-primary: #09f;
   }
 }
 @layer base {
@@ -207,9 +208,9 @@
   .table {
     display: table;
   }
-  .size-12 {
-    width: calc(var(--spacing) * 12);
-    height: calc(var(--spacing) * 12);
+  .size-10 {
+    width: calc(var(--spacing) * 10);
+    height: calc(var(--spacing) * 10);
   }
   .h-96 {
     height: calc(var(--spacing) * 96);
@@ -381,14 +382,11 @@
     --tw-font-weight: var(--font-weight-extrabold);
     font-weight: var(--font-weight-extrabold);
   }
-  .text-\[\#09f\] {
-    color: #09f;
-  }
-  .text-\[\#cceeff\] {
-    color: #cceeff;
-  }
   .text-\[\#ceecff\] {
     color: #ceecff;
+  }
+  .text-primary {
+    color: var(--color-primary);
   }
   .text-sky-400 {
     color: var(--color-sky-400);
@@ -422,10 +420,10 @@
       }
     }
   }
-  .sm\:size-16 {
-    @media (width >= 40rem) {
-      width: calc(var(--spacing) * 16);
-      height: calc(var(--spacing) * 16);
+  .xs\:size-12 {
+    @media (width >= 350px) {
+      width: calc(var(--spacing) * 12);
+      height: calc(var(--spacing) * 12);
     }
   }
 }
