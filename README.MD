@@ -57,3 +57,11 @@ Centro de enlaces organizado en un layout bento grid moderno, construido con Tai
 	 ```
 	
 	 > 💡 Este comando escanea tus archivos HTML en busca de clases de Tailwind y genera/actualiza `output.css` automáticamente cada vez que guardas cambios.
+
+### Ver los cambios en el navegador
+
+1. Abre el proyecto en un editor de código.
+
+2. Abre el fichero **index.html** y selecciona **"Open with Live Preview"** (o usa el comando **Live Preview: Start Server**).
+
+3. Cada vez que guardes cambios el navegador se recargará automáticamente.
