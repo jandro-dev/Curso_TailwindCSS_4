@@ -9,7 +9,7 @@
 	"keywords": [],
 	"author": "",
 	"license": "ISC",
-	"packageManager": "pnpm@10.24.0",
+	"packageManager": "pnpm@11.21.0",
 	"dependencies": {
 		"@midudev/tailwind-animations": "^0.2.0",
 		"@tailwindcss/cli": "^4.1.18",
